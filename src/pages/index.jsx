@@ -7,12 +7,16 @@ export default function Home() {
       <Head>
         <title>Portfolio</title>
       </Head>
-      <center>
+
+      <div>
+        <div className="navbar bg-base-100">
+          <a className="btn btn-ghost text-xl">daisyUI</a>
+        </div>
         <div className="mt-5">
           <h1 className="text-3xl">My name is Sanjeet</h1>
           <p>A blog post by sanjeet kumar</p>
         </div>
-      </center>
+      </div>
     </>
   );
 }
